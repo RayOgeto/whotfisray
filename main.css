@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+
+header {
+    position: fixed;
+    padding: 0 2rem;
+    width: 100%;
+    
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    /* max-width: 1200px; */
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    background-color: #20232a;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1000;
+    /* transition: .10s ease; */
+}
+
+.navbar .name {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #20232a;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+/* underline */
+/* .navbar .links a {
+    position: relative;
+    margin-left: 20px;
+    color: red;
+    background-color: #20232a;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+} */
+
+.links {
+    position: relative;
+    background-color: #20232a;
+    cursor: pointer;
+    /* cutoff */
+    /* text-decoration: none;
+    background-color: #20232a;
+    color: #fff;
+    outline: none;  */
+
+}
+
+.links a {
+    position: relative;
+    text-decoration: none;
+    background-color: #20232a;
+    color: #fff;
+    outline: none;
+}
+
+.links a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: .3s ease;
+}
+
+.links a:hover::before {
+    width: 100%;
+}
+
+.navbar .right {
+    color: #fff;
+    /* font-size: 1.1rem;
+    border-radius: 12px; */
+    /* cursor: pointer; */
+    /* transition: .3s; */
+}
+
+.navbar .right a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #20232a;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    transition: .3s ease;
+
+}
+
+/* .navbar .right:hover {
+    background-color: white;
+    color: #20232a;
+    font-weight: 700;
+} */
+
+.navbar .right a:hover {
+    background-color: #fff;
+    color: #20232a;
+    font-weight: 700;
+} 
+
+/* .navbar:hover {
+    background: linear-gradient(to bottom, white, #282c34);
+    color: #282c34;
+} */
+

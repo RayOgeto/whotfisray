@@ -1,0 +1,42 @@
+* {
+    color: #20232a;
+}
+
+main {
+    min-height: 100vh;
+    padding-top: 100px;
+}
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.7fr);
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.p- {
+    /* background-color: red; */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 1rem #20232a;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
