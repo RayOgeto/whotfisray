@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue');
+
 :root {
     --text-color:#282c34;
     --bg-color: #fff;
@@ -93,5 +95,28 @@ footer {
     margin: 40px;
 }
 
-/* darkmode */
+/* ------------------------------------------------ */
+
+.get-me {
+    margin: 20px;
+    align-items: center;
+}
+
+.cover {
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+
+.cover p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-size: 18px;
+}
+.soshols {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
 
